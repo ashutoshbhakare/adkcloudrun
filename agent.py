@@ -20,7 +20,7 @@ def get_current_time(timezone: str = "Asia/Kolkata") -> dict:
 
 root_agent = Agent(
     name="my_agent",
-    model="gemini-2.5-flash",
+    model="gemini-3.8-flash",
     description="A helpful assistant that can tell the current time.",
     instruction=(
         "You are a helpful assistant. When the user asks about the time, "
